@@ -21,8 +21,12 @@ async def simple_chat_test():
 
     # 测试问题
     test_questions = [
-        # "查询一下最近的ai新闻热点。使用 web-search-prime"
-        "你查看一下你当前拥有的tools 和 Skills, 以格式 skills:xxx  \n tools: xxx分 的格式类列出"
+        """
+        当你需要完成任务的时候，优先查看你拥有的skill能否完成任务。
+        
+        查询一下最近的ai新闻热点。并且总结并输出为pdf
+        并且要输出你使用的tool和skill
+        """
     ]
 
     for i, question in enumerate(test_questions, 1):
