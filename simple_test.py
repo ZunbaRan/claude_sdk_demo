@@ -22,7 +22,7 @@ async def simple_chat_test():
     # 测试问题
     test_questions = [
         # "查询一下最近的ai新闻热点。使用 web-search-prime"
-        "你查看一下你当前拥有的tools 和 Skills, 分类列出"
+        "你查看一下你当前拥有的tools 和 Skills, 以格式 skills:xxx  \n tools: xxx分 的格式类列出"
     ]
 
     for i, question in enumerate(test_questions, 1):
