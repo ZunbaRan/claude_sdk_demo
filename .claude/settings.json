@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv pip list:*)",
+      "Bash(uv run pip:*)",
+      "Bash(uv init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-ce22cf7c1b4a4372b5f02effa00180f5",
+    "ANTHROPIC_BASE_URL": "https://dashscope.aliyuncs.com/apps/anthropic",
+    "ANTHROPIC_MODEL": "qwen-plus",
+    "API_TIMEOUT_MS": "3000000"
+  },
+  "env_bak":{
+    "ANTHROPIC_AUTH_TOKEN": "2c1aafa6fec3870a1b58ce4110103563.RDKI6qfuATJ7gb2k",
+    "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
+    "API_TIMEOUT_MS": "3000000"
+  }
+}
